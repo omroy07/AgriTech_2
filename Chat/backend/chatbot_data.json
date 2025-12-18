@@ -1,0 +1,178 @@
+{
+  "greetings": [
+    "Hello!",
+    "Hi there!",
+    "Greetings!",
+    "Welcome!"
+  ],
+  "farewells": [
+    "Goodbye!",
+    "See you later!",
+    "Take care!",
+    "Have a nice day!",
+    "Thank you"
+  ],
+  "qas": [
+    {
+      "question": "What is the weather today?",
+      "answer": "It's sunny today with mild breeze."
+    },
+    {
+      "question": "What crops should I plant?",
+      "answer": "Maize and wheat are ideal for this season."
+    },
+    {
+      "question": "How to control pests?",
+      "answer": "Neem oil works well as a natural pesticide."
+    },
+    {
+      "question": "How can agricultural technology help improve crop yield?",
+      "answer": "Agricultural technology like precision farming optimizes resources and improves yields by real-time data analysis."
+    },
+    {
+      "question": "What is precision agriculture?",
+      "answer": "Precision agriculture uses GPS, sensors, and data analytics to manage crops efficiently."
+    },
+    {
+      "question": "How does IoT benefit farming?",
+      "answer": "IoT devices monitor soil moisture, weather, and pests, enabling timely actions."
+    },
+    {
+      "question": "Tell me about organic farming.",
+      "answer": "Organic farming uses natural methods avoiding synthetic chemicals to improve sustainability."
+    },
+    {
+      "question": "What irrigation methods conserve water?",
+      "answer": "Drip and sprinkler irrigation methods are effective for water conservation."
+    },
+    {
+      "question": "How to improve soil health?",
+      "answer": "Use crop rotation, add organic matter, and reduce chemical inputs."
+    },
+    {
+      "question": "What role do drones play in agriculture?",
+      "answer": "Drones provide aerial imaging to monitor crop health and manage fields."
+    },
+    {
+      "question": "What is crop rotation?",
+      "answer": "Crop rotation is the practice of growing different crops sequentially to improve soil health and reduce pests."
+    },
+    {
+      "question": "How can data analytics improve farming?",
+      "answer": "Data analytics help predict weather, optimize irrigation, and detect crop diseases early."
+    },
+    {
+      "question": "What is smart farming?",
+      "answer": "Smart farming integrates IoT, AI, and robotics to automate and improve farm operations."
+    },
+    {
+      "question": "How to reduce post-harvest crop loss?",
+      "answer": "Use proper storage, cold chains, and timely transport to reduce losses."
+    },
+    {
+      "question": "What is the importance of soil testing?",
+      "answer": "Soil testing helps determine nutrient needs, improving fertilization efficiency and crop yield."
+    },
+    {
+      "question": "What are biofertilizers?",
+      "answer": "Biofertilizers contain living microorganisms that enhance nutrient availability to plants."
+    },
+    {
+      "question": "How does climate change affect agriculture?",
+      "answer": "Climate change causes erratic weather, droughts, and pest outbreaks affecting yields."
+    },
+    {
+      "question": "What are integrated pest management practices?",
+      "answer": "Using biological control, crop rotation, and minimal chemicals to manage pests sustainably."
+    },
+    {
+      "question": "What is hydroponics?",
+      "answer": "Hydroponics is growing plants in nutrient-rich water without soil."
+    },
+    {
+      "question": "How to use AI in agriculture?",
+      "answer": "AI helps in crop monitoring, yield prediction, and automated machinery control."
+    },
+    {
+      "question": "What is the best fertilizer for rice?",
+      "answer": "Nitrogen-rich fertilizers like urea are important, but balanced use of phosphorus and potassium is also necessary."
+    },
+    {
+      "question": "How do I check soil fertility?",
+      "answer": "Conduct a soil test in a certified lab to measure pH, nutrients, and organic matter."
+    },
+    {
+      "question": "Why is pH important in soil?",
+      "answer": "Soil pH affects nutrient availability—most crops grow best between pH 6.0 and 7.5."
+    },
+    {
+      "question": "What crops grow well in sandy soil?",
+      "answer": "Groundnuts, carrots, and potatoes grow well in sandy soils with good drainage."
+    },
+    {
+      "question": "How often should I water tomato plants?",
+      "answer": "Tomatoes need consistent moisture; water 2–3 times a week depending on soil type and weather."
+    },
+    {
+      "question": "What is rainwater harvesting in farming?",
+      "answer": "It’s the collection of rainwater for irrigation, reducing dependence on groundwater."
+    },
+    {
+      "question": "How does drip irrigation save water?",
+      "answer": "It delivers water directly to the plant roots, reducing evaporation and runoff."
+    },
+    {
+      "question": "How to identify nitrogen deficiency in plants?",
+      "answer": "Leaves turn yellow, especially the older ones, if nitrogen is low."
+    },
+    {
+      "question": "What are natural ways to control aphids?",
+      "answer": "Ladybugs, neem oil spray, and garlic extract work as natural aphid controls."
+    },
+    {
+      "question": "How do I prevent fungal diseases in crops?",
+      "answer": "Ensure good air circulation, avoid overwatering, and use resistant crop varieties."
+    },
+    {
+      "question": "What is vertical farming?",
+      "answer": "Vertical farming grows crops in stacked layers, often using hydroponics or aeroponics."
+    },
+    {
+      "question": "How do sensors help in farming?",
+      "answer": "Sensors track soil moisture, temperature, and nutrients for precise farm management."
+    },
+    {
+      "question": "Can blockchain be used in agriculture?",
+      "answer": "Yes, blockchain ensures transparent supply chains and reduces food fraud."
+    },
+    {
+      "question": "What are autonomous tractors?",
+      "answer": "These are self-driving tractors that use GPS and AI to perform farming tasks."
+    },
+    {
+      "question": "What is sustainable farming?",
+      "answer": "It balances productivity with environmental care using eco-friendly methods."
+    },
+    {
+      "question": "How can farmers adapt to climate change?",
+      "answer": "By using drought-resistant seeds, efficient irrigation, and diversifying crops."
+    },
+    {
+      "question": "Why is biodiversity important in farming?",
+      "answer": "Biodiversity improves soil health, pest control, and ecosystem stability."
+    },
+    {
+      "question": "What is cold chain storage?",
+      "answer": "It’s a temperature-controlled supply chain to keep perishable crops fresh."
+    },
+    {
+      "question": "How to reduce food waste after harvesting?",
+      "answer": "Use proper packaging, cold storage, and timely distribution."
+    },
+    {
+      "question": "What is contract farming?",
+      "answer": "An agreement where farmers grow crops for companies at pre-agreed prices."
+    }
+  ],
+  "default_answer": "Sorry, I don't have information on that topic. Please ask about weather, crops, pests, or farming technology."
+}

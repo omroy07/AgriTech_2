@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crop Planner AI</title>
+  <link rel="icon" type="image/png" href="/AgriTech/images/logo.png">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='theme.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body class="light">
+  <nav class="navbar">
+    <a href="javascript:history.back()" class="back-btn">
+      <i class="fas fa-arrow-left"></i>
+    </a>
+    <h2 class="navbar-title">Crop Planner AI</h2>
+    <button class="theme-toggle" id="theme-toggle">
+      <i class="fas fa-sun"></i>
+      <i class="fas fa-moon"></i>
+      <span id="theme-text">Light</span>
+    </button>
+  </nav>
+
+  <div class="container">
+    <h1>🌿 Crop Planner AI</h1>
+    <p class="subtitle">Enter your farm's details to get an AI-powered crop planner with comprehensive growing
+      guidelines.</p>
+
+    <form id="crop-form">
+      <div class="form-grid">
+        <div class="form-group">
+          <label for="ph">Soil pH</label>
+          <input type="number" id="ph" name="ph" required step="0.1" min="0" max="14" placeholder="e.g., 6.8" />
+        </div>
+        <div class="form-group">
+          <label for="temperature">Temperature (°C)</label>
+          <input type="number" id="temperature" name="temperature" required step="0.1" min="-10" max="50"
+            placeholder="e.g., 28.5" />
+        </div>
+        <div class="form-group">
+          <label for="rainfall">Rainfall (mm)</label>
+          <input type="number" id="rainfall" name="rainfall" required step="1" min="0" placeholder="e.g., 650" />
+        </div>
+        <div class="form-group">
+          <label for="soil_type">Soil Type</label>
+          <select id="soil_type" name="soil_type" required>
+            <option value="">Select soil type...</option>
+            <option>Black</option>
+            <option>Loamy</option>
+            <option>Clay</option>
+            <option>Sandy</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="season">Season</label>
+          <select id="season" name="season" required>
+            <option value="">Select season...</option>
+            <option>Monsoon</option>
+            <option>Winter</option>
+            <option>Summer</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="market_demand">Market Demand</label>
+          <select id="market_demand" name="market_demand" required>
+            <option value="">Select demand...</option>
+            <option>High</option>
+            <option>Medium</option>
+            <option>Low</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="fertilizer">Fertilizer</label>
+          <select id="fertilizer" name="fertilizer" required>
+            <option value="">Select fertilizer...</option>
+            <option>Urea+DAP</option>
+            <option>NPK 10-26-26</option>
+            <option>Single Super Phosphate</option>
+            <option>None</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="pest_issue">Pest Issue</label>
+          <select id="pest_issue" name="pest_issue" required>
+            <option value="">Select pest...</option>
+            <option>None</option>
+            <option>Bollworm</option>
+            <option>Stem Borer</option>
+            <option>Aphids</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="irrigation">Irrigation Method</label>
+          <select id="irrigation" name="irrigation" required>
+            <option value="">Select irrigation...</option>
+            <option>Drip</option>
+            <option>Canal</option>
+            <option>Rainfed</option>
+            <option>Sprinkler</option>
+          </select>
+        </div>
+      </div>
+      <button type="submit" class="predict-btn">Get Full Farming Plan</button>
+    </form>
+
+    <div id="result-container" class="hidden">
+      <h2>🎯 Recommended Crop: <span id="result-text"></span></h2>
+
+      <div id="guide-container">
+        <h3 id="guide-title"></h3>
+
+        <div class="guide-grid">
+          <div class="guide-item">
+            <h4>🗓️ Timeline</h4>
+            <ul id="guide-timeline"></ul>
+          </div>
+
+          <div class="guide-item">
+            <h4>🌱 How to Plant</h4>
+            <ul id="guide-how"></ul>
+          </div>
+
+          <div class="guide-item">
+            <h4>💊 Fertilizer Plan</h4>
+            <ul id="guide-fertilizer"></ul>
+          </div>
+
+          <div class="guide-item">
+            <h4>🌧️ Ideal Rainfall</h4>
+            <p id="guide-rainfall"></p>
+          </div>
+
+          <div class="guide-item">
+            <h4>📦 Post-Harvest Plan</h4>
+            <ul id="guide-post"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="site-footer">© 2025 AgriTech • Made for farmers</footer>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  <script src="{{ url_for('static', filename='theme.js') }}"></script>
+</body>
+
+</html>
