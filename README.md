@@ -9,12 +9,6 @@ AgriTech is an innovative web platform designed to empower farmers and agricultu
 ### Dashboard Overview
 ![AgriTech Dashboard](https://github.com/omroy07/AgriTech/blob/main/image/Screenshot%202025-06-03%20111019.png)
 
-### Key Features in Action
-| Crop Recommendation | Disease Detection | Community Chat |
-|:-------------------:|:-----------------:|:--------------:|
-| ![Crop Recommendation GIF](link-to-crop-recommendation.gif) | ![Disease Detection GIF](link-to-disease-detection.gif) | ![Community Chat GIF](link-to-community-chat.gif) |
-
----
 
 ## 🚀 Getting Started
 
@@ -76,173 +70,6 @@ Connect with fellow farmers to share experiences, resources, and advice.
 - Shopkeeper Listings
 Discover local agricultural product and service providers.
 
-# File Structure
-AgriTech/\
-├── 📁 docs/                        # Documentation files\ \
-│   ├── CONTRIBUTING.md\
-│   ├── TROUBLESHOOTING.md\
-│   ├── API_DOCUMENTATION.md\
-│   └── SETUP_GUIDE.md\
-│
-├── 📁 images/                        # All images and visual assets\
-│   ├── screenshots/\
-│   │   ├── dashboard.png\
-│   │   ├── crop-recommendation.png\
-│   │   ├── disease-detection.png\
-│   │   └── community-chat.png\
-│   │
-│   ├── gifs/                         # Preview GIFs for README\
-│   │   ├── crop-recommendation.gif\
-│   │   ├── community-chat.gif\
-│   │   └── yield-prediction.gif\
-│   │
-│   ├── icons/\
-│   │   ├── favicon.ico\
-│   │   ├── logo.png\
-│   │   └── apple-touch-icon.png\
-│   │
-│   └── mockups/\
-│       ├── mobile-view.png\
-│       └── tablet-view.png\
-│
-├── 📁 src/                           # Main source code\
-│   ├── 📁 frontend/\
-│   │   ├── index.html                # Main entry point\
-│   │   ├── 📁 css/\
-│   │   │   ├── style.css\
-│   │   │   ├── components/\
-│   │   │   │   ├── navbar.css\
-│   │   │   │   ├── sidebar.css\
-│   │   │   │   ├── cards.css\
-│   │   │   │   └── forms.css\
-│   │   │   ├── pages/\
-│   │   │   │   ├── dashboard.css\
-│   │   │   │   ├── crop-recommendation.css\
-│   │   │   │   ├── disease-detection.css\
-│   │   │   │   └── community.css\
-│   │   │   └── responsive.css\
-│   │   │
-│   │   ├── 📁 js/\
-│   │   │   ├── app.js                # Main application logic\
-│   │   │   ├── 📁 modules/\
-│   │   │   │   ├── auth.js\
-│   │   │   │   ├── utils.js\
-│   │   │   │   └── animations.js\
-│   │   │   ├── 📁 features/\
-│   │   │   │   ├── crop-recommendation.js\
-│   │   │   │   ├── yield-prediction.js\
-│   │   │   │   ├── disease-detection.js\
-│   │   │   │   └── community-chat.js\
-│   │   │   └── 📁 components/\
-│   │   │       ├── navbar.js\
-│   │   │       ├── modal.js\
-│   │   │       └── charts.js\
-│   │   │
-│   │   ├── 📁 assets/\
-│   │   │   ├── 📁 fonts/\
-│   │   │   ├── 📁 icons/             # SVG icons\
-│   │   │   └── 📁 data/              # Sample data for demos\
-│   │   │
-│   │   └── 📁 pages/                 # HTML pages for different features\
-│   │       ├── dashboard.html\
-│   │       ├── crop-recommendation.html\
-│   │       ├── yield-prediction.html\
-│   │       ├── disease-detection.html\
-│   │       ├── community.html\
-│   │       ├── shopkeepers.html\
-│   │       └── plantation-guide.html\
-│   │
-│   ├── 📁 backend/                   # Backend server code\
-│   │   ├── app.py                   # Flask main application\
-│   │   ├── requirements.txt\
-│   │   ├── 📁 routes/\
-│   │   │   ├── auth_routes.py\
-│   │   │   ├── crop_routes.py\
-│   │   │   ├── disease_routes.py\
-│   │   │   ├── yield_routes.py\
-│   │   │   └── community_routes.py\
-│   │   ├── 📁 models/\
-│   │   │   ├── user_model.py\
-│   │   │   ├── crop_model.py\
-│   │   │   ├── disease_model.py\
-│   │   │   └── database.py\
-│   │   ├── 📁 ml_models/             # AI/ML model files\
-│   │   │   ├── crop_recommendation/\
-│   │   │   │   ├── model.pkl\
-│   │   │   │   ├── train_model.py\
-│   │   │   │   └── preprocessing.py\
-│   │   │   ├── yield_prediction/\
-│   │   │   │   ├── model.h5\
-│   │   │   │   ├── train_model.py\
-│   │   │   │   └── data_processing.py\
-│   │   │   └── disease_detection/\
-│   │   │       ├── model.h5\
-│   │   │       ├── train_model.py\
-│   │   │       └── image_processing.py\
-│   │   ├── 📁 utils/\
-│   │   │   ├── helpers.py\
-│   │   │   ├── validators.py\
-│   │   │   └── constants.py\
-│   │   └── 📁 config/\
-│   │       ├── database.py\
-│   │       └── settings.py\
-│   │
-│   └── 📁 database/                  # Database related files\
-│       ├── schema.sql\
-│       ├── sample_data.sql\
-│       └── migrations/\
-│
-├── 📁 tests/                         # Test files\
-│   ├── 📁 frontend/\
-│   │   ├── unit/\
-│   │   └── integration/\
-│   ├── 📁 backend/\
-│   │   ├── unit/\
-│   │   └── integration/\
-│   └── 📁 ml_models/\
-│       ├── test_crop_model.py\
-│       ├── test_yield_model.py\
-│       └── test_disease_model.py\
-│
-├── 📁 scripts/                       # Utility scripts\
-│   ├── setup.sh                      # Quick setup script\
-│   ├── deploy.sh\
-│   ├── backup_database.sh\
-│   └── generate_gifs.py              # Script to create preview GIFs\
-│
-├── 📁 config/                        # Configuration files\
-│   ├── environment.yml\
-│   ├── nginx.conf\
-│   └── gunicorn.conf.py\
-│
-├── 📁 .github/                       # GitHub workflows and templates\
-│   ├── workflows/\
-│   │   ├── ci-cd.yml\
-│   │   └── deploy.yml\
-│   ├── ISSUE_TEMPLATE/\
-│   │   ├── bug_report.md\
-│   │   └── feature_request.md\
-│   └── PULL_REQUEST_TEMPLATE.md\
-│
-├── 📁 data/                          # Datasets and training data\
-│   ├── 📁 crop_data/\
-│   ├── 📁 disease_images/\
-│   └── 📁 yield_data/\
-│
-├── 📁 logs/                          # Application logs\
-│   ├── app.log\
-│   ├── error.log\
-│   └── access.log\
-│
-├── 📄 .env.example                   # Environment variables template\
-├── 📄 .gitignore\
-├── 📄 README.md                      # Main documentation\
-├── 📄 package.json                   # Node.js dependencies (if using Node)\
-├── 📄 requirements.txt               # Python dependencies\
-├── 📄 Dockerfile                    # Container configuration\
-├── 📄 docker-compose.yml             # Multi-container setup\
-└── 📄 LICENSE                        # Project license\
-
 # Community Chat
 Collaborate and discuss challenges, share solutions, and keep up with the latest in agriculture.
 
@@ -262,13 +89,6 @@ Plan your season with confidence and unlock your farm's true potential for a mor
 - Database: MySQL / MongoDB
 
 - Hosting: Localhost (127.0.0.1), with option for cloud deployment
-
-# 👥 Team Members & Roles
-- Om Roy – Project Lead & Web Developer & Machine Learning Engineer
-
-- Kanisha Ravindra Sharma – Machine Learning Engineer & Backend Developer
-
-- Shubhangi Roy – Machine Learning Engineer & Backend Developer
 
 # 🤝 Contributing
 We welcome contributions! Please read our Contributing Guide to get started. It includes:
@@ -422,14 +242,3 @@ Optimize file size (keep under 5MB)
 Show the most valuable interactions
 
 Add to an /images or /gifs folder in your repo
-
-
-## ✨ Contributors
-
-#### Thanks to all the wonderful contributors 💖
-
-<a href="https://github.com/omroy07/AgriTech/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=omroy07/AgriTech" />
-</a>
-
-#### See full list of contributor contribution [Contribution Graph](https://github.com/omroy07/AgriTech/graphs/contributors)  
